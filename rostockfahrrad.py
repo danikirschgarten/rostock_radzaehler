@@ -34,7 +34,7 @@ df7tage = df_pivot_datum.resample("D").sum().iloc[-7:]
 df7tagegedreht = df7tage.T
 df7tagegedreht = df7tagegedreht.reset_index()
 df7tagegedreht
-df_gesamt = pd.merge(df_standorte, df7tagegedreht, left_on="standort_id", right_on="standort_id", how="left")
+df_gesamt = pd.merge(df_standorte, df7tagegedreht, left_on="id", right_on="standort_id", how="left")
 df_gesamt
 df_gesamt.to_csv("Radmessstellen Karte.csv")
 df_gesamt
