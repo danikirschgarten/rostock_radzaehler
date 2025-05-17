@@ -1,4 +1,4 @@
-name: Run the Python file
+_name: Run the Python file
 
 on:
   push:
@@ -40,12 +40,12 @@ jobs:
        
       - name: Run script
         run: |
-          python rostockfahrrad.py
+          python kiel_kreuzfahrt_aktuell.py
 
 
       - name: Commit and push changes
         run: |
-          git add df_gesamt_neu.csv
+          git add kiel_kreuzfahrt_aktuell.csv
           git status
           
           # Nur committen wenn es Änderungen gibt
