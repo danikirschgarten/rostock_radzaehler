@@ -45,7 +45,7 @@ jobs:
 
       - name: Commit and push changes
         run: |
-          git add kiel_kreuzfahrt_aktuell.csv
+          git add kiel_kreuzfahrt.csv
           git status
           
           # Nur committen wenn es Änderungen gibt
