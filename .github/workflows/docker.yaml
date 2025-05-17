@@ -1,4 +1,4 @@
-_name: Run the Python file
+name: Run the Python file
 
 on:
   push:
