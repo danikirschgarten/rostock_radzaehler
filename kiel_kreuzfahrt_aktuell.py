@@ -26,3 +26,4 @@ df_aktuell = df[
 # %%
 df_aktuell.to_csv ("kiel_kreuzfahrt.csv")
 # %%
+#why does it not work?
