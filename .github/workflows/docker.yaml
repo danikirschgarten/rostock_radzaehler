@@ -43,4 +43,4 @@ on:
      
      - name: Run script
        run: |
-         python rostockfahrrad.py
+         python kiel_kreuzfahrt_aktuell.py
