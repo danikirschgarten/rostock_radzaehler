@@ -39,7 +39,7 @@ jobs:
        
       - name: Run script
         run: |
-          python kiel_kreuzfahrt_neu.py
+          python kiel_kreuzfahrt_aktuell.py
 
 
       - name: Commit and push changes
